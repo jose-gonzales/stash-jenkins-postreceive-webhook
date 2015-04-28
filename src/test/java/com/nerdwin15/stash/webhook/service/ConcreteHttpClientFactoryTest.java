@@ -51,6 +51,7 @@ public class ConcreteHttpClientFactoryTest {
     factory.getHttpClient(true, false);
     assertFalse(factory.wasSslContextCreated());
     assertFalse(factory.wasSchemeRegistryCreated());
+    assertFalse(true);
   }
 
   /**
