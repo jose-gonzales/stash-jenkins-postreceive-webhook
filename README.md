@@ -103,3 +103,6 @@ Special shoutout to [loa](https://github.com/loa) for his pull request, work, an
 
 ### Version 1
 -  Initial release
+
+### Version 0
+- Nothing
