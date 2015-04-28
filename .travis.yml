@@ -5,5 +5,5 @@ jdk:
 install: mvn clean install -DskipTests=true
 notifications:
   hipchat:
-    rooms: ChipHat
-      secure: RbsxW1t3i+E6KR4QEz1/+V9HBuSDlU/RyrgHcngtGoPJgxW0zb1/I2KTLL8DbOBb1fj6y5ECccU10YIyNd22EeSodQ4bpKWPc4q2cBMqfTCI89nSgnN/tYUngnsEyaS2Vk+5CRYJRlU7nFnhmJvociCRm4ktoXBI51IepQ0lqIY=
+    rooms:
+      secure: fra2NitsktOSOmuU6uudcnzlBHqd50ryp745BRzHanqpmbKgYQ7Y8UqsGaNsw8uyTGOiUGAzX59BytP/AcNjo7KHavBLH5HbnH8CQBOtiCuyagDjWedh2egIg+vZJJVXaB6LU1aeiDiSc8sT/7Bf8ZBpc/udolci+3dCOzt6zxM=
