@@ -14,3 +14,12 @@ deploy:
   file: target/*.jar
   on:
     repo: jose-gonzales/stash-jenkins-postreceive-webhook
+env:
+  global:
+    secure: uY32zOP6PVXVX5E40pZmpbNtcg6h6uajYzYIL4Cg+VH/dPHIdy0/y4CY5xAzpbnqjBZljktzTz26nmoI9ZH40ms8JiUJPdyxoy+j9P6PrTT8L4aX7TcfrIESRx2aCwfkrLIt2we+TAPN+Pd633BN8IVfR27etJymnRLVCOCg8Og=
+addons:
+  artifacts:
+  	paths:
+      - target/*.jar
+ARTIFACTS_KEY="AKIAIX6SVPQRPHOHK4TA"
+ARTIFACTS_BUCKET="bamboo-josh"
