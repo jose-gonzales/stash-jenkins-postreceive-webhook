@@ -21,5 +21,3 @@ addons:
   artifacts:
   	paths:
       - target/*.jar
-ARTIFACTS_KEY="AKIAIX6SVPQRPHOHK4TA"
-ARTIFACTS_BUCKET="bamboo-josh"
