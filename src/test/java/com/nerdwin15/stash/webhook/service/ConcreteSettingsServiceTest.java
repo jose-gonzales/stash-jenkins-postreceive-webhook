@@ -83,7 +83,7 @@ public class ConcreteSettingsServiceTest {
         .thenReturn(settings);
     Object returnValue = captor.getValue().perform();
     
-    verify(hookService, times(1)).getSettings(repository, Notifier.KEY);
+    verify(hookService, times(2)).getSettings(repository, Notifier.KEY);
     assertEquals(settings, returnValue);
   }
 }
