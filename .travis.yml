@@ -10,8 +10,8 @@ notifications:
 deploy:
   provider: releases
   api_key:
-    secure: ANP83a3bGRYnIc0yn+HRt67FcgEoN02ufPYTsyXpT0USzmmLIxFCnDoA36neJYnXQajFrH82sJ0OPLO6utdkKp3RPeZwynQvnGgFMQl71Brzm+xygRRDk//zQo+DYKyH0XttXtQdO377ahLoTpEw8YIjytpue06xrxMw/y39biM=
-  file: target/*.jar
+    secure: zANP83a3bGRYnIc0yn+HRt67FcgEoN02ufPYTsyXpT0USzmmLIxFCnDoA36neJYnXQajFrH82sJ0OPLO6utdkKp3RPeZwynQvnGgFMQl71Brzm+xygRRDk//zQo+DYKyH0XttXtQdO377ahLoTpEw8YIjytpue06xrxMw/y39biM=
+  file: pom.xml
   on:
     repo: jose-gonzales/stash-jenkins-postreceive-webhook
     tags: true
